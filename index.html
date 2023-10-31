@@ -3,57 +3,149 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Барбершоп</title>
+  <title>Barbershop</title>
 </head>
 
 <body class="page__body">
   <header class="page-header">
     <a class="page-header__logo" href="#">
-      <img class="page-header__img" src="" alt="Барбершоп">
+      <img class="page-header__img" src="img/logo-mobile.svg" width="200" height="60" alt="Barbershop">
     </a>
     <nav class="nav">
       <button class="nav__toggle" type="button">
         <span class="visually-hidden">
-          Открыть меню
+          Open
         </span>
       </button>
-      <ul class="nav__list site-list">
-        <li class="site-list__item site-list__item--active">
-          <a href="#">
-            ГЛАВНАЯ
-          </a>
-        </li>
-        <li class="site-list__item">
-          <a href="#">
-            НАШИ РАБОТЫ
-          </a>
-        </li>
-        <li class="site-list__item">
-          <a href="#">
-            ЗАПИСАТЬСЯ
-          </a>
-        </li>
-        <li class="site-list__item">
-          <a href="#">
-            КОНТАКТЫ
-          </a>
-        </li>
-        <li class="site-list__item">
-          <a href="#">
-            АКЦИИ
-          </a>
-        </li>
-      </ul>
-      <ul class="nav__list user-list">
-        <li class="user-list__item">
-          <a class="user-list__login js-login" href="">
-            Войти
-          </a>
-        </li>
-      </ul>
+      <div class="nav__wrapper">
+        <ul class="nav__list site-list">
+          <li class="site-list__item site-list__item--active">
+            <a href="#">
+              HOME
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">
+              ABOUT
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">
+              SERVICES
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">
+              APPOINTMENTS
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">
+              CONTACT
+            </a>
+          </li>
+        </ul>
+        <ul class="nav__list user-list">
+          <li class="user-list__item">
+            <a class="user-list__login js-login" href="">
+              Enter
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
   </header>
-  <main class="page__main">
+  <main class="page-main">
+    <h1 class="visually-hidden">
+      Barbershop is the best way to make you look beautiful
+    </h1>
+    <section class="statistic">
+      <header class="statistic__header">
+        <h2 class="visually-hidden">
+          Barbershop's statistick
+        </h2>
+        <p class="statistic__slogan">
+          Our haircut<br>
+          is profitable!
+        </p>
+        <p class="statistick__intro">
+          Man haircut requires<br>
+          precise approach. Go<br>
+          to statistick:
+        </p>
+        <p class="statistic__legend statistic__legend--top">
+          * — test data
+        </p>
+      </header>
+      <dl class="statistic__list">
+        <div class="statistic__item">
+          <dt class="statistic__number">
+            15<sup>*</sup>
+          </dt>
+          <dd class="statistic__description">
+            dollars of expenses
+          </dd>
+        </div>
+        <div class="statistic__item">
+          <dt class="statistic__number">
+            7 200
+          </dt>
+          <dd class="statistic__description">
+            seconds of master's time
+          </dd>
+        </div>
+        <div class="statistic__item">
+          <dt class="statistic__number">
+            90 000
+          </dt>
+          <dd class="statistic__description">
+            cut hair
+          </dd>
+        </div>
+        <div class="statistics__item">
+          <dt class="statistic__number">
+            500 000 <sup>*</sup>
+          </dt>
+          <dd class="statistic__description">
+            likes and compliments
+          </dd>
+        </div>
+      </dl>
+      <p class="statistic__legend statistic__legend--bottom">
+        * — test data
+      </p>
+    </section>
+    <section class="advantages">
+      <h2 class="visually-hidden">Our advantages</h2>
+      <div class="advantages__wrapper slider">
+        <ul class="advantages__list">
+          <li class="advantages__item advantages__item--fast">
+            <h3 class="advantages__title">
+              FAST
+            </h3>
+            <p class="advantages__description">
+              We do our work fast! Two hours will pass quickly and then you are the owner of a great haircut.
+            </p>
+          </li>
+          <li class="advantages__item advantages__item--great">
+            <h3 class="advantages__title">
+              GREAT
+            </h3>
+            <p class="advantages__description">
+              Forget how you cut before. We will make you look like a star.
+            </p>
+          </li>
+          <li class="advantages__item advantages__item--expensive">
+            <h3 class="advantages__title">
+              EXPENSIVE
+            </h3>
+            <p class="advantages__description">
+              Our masters are the professionals of their deal and they cost high. But the price forms status.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
   </main>
 

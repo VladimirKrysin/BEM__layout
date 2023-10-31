@@ -14,7 +14,7 @@
     <nav class="nav">
       <button class="nav__toggle" type="button">
         <span class="visually-hidden">
-          Open
+          SIGN IN
         </span>
       </button>
       <div class="nav__wrapper">
@@ -118,8 +118,8 @@
     <section class="advantages">
       <h2 class="visually-hidden">Our advantages</h2>
       <div class="advantages__wrapper slider">
-        <ul class="advantages__list">
-          <li class="advantages__item advantages__item--fast">
+        <ul class="advantages__list slider__list">
+          <li class="advantages__item advantages__item--fast slider__item">
             <h3 class="advantages__title">
               FAST
             </h3>
@@ -127,7 +127,7 @@
               We do our work fast! Two hours will pass quickly and then you are the owner of a great haircut.
             </p>
           </li>
-          <li class="advantages__item advantages__item--great">
+          <li class="advantages__item advantages__item--great slider__item">
             <h3 class="advantages__title">
               GREAT
             </h3>
@@ -135,7 +135,7 @@
               Forget how you cut before. We will make you look like a star.
             </p>
           </li>
-          <li class="advantages__item advantages__item--expensive">
+          <li class="advantages__item advantages__item--expensive slider__item">
             <h3 class="advantages__title">
               EXPENSIVE
             </h3>
@@ -144,11 +144,109 @@
             </p>
           </li>
         </ul>
+        <div class="advantages__toggles slider__toggles">
+          <button class="slider__toggle slider__toggle--current" type="button">1</button>
+          <button class="slider__toggle" type="button">2</button>
+          <button class="slider__toggle" type="button">3</button>
+        </div>
       </div>
     </section>
-
+    <section class="news">
+      <div class="news__wrapper">
+        <h2 class="news__title">NEWS AND SHARES</h2>
+        <div class="news__list">
+          <a class="news__item" href="#">
+            <time class="news__date" datetime="2023-10-31">
+              <b class="news__day">31</b>Oct
+            </time>
+            <p class="news__text">
+              First news
+            </p>
+          </a>
+          <a class="news__item" href="#">
+            <time class="news__date" datetime="2023-11-01">
+              <b class="news__day">1</b>Nov
+            </time>
+            <p class="news__text">
+              Second news
+            </p>
+          </a>
+        </div>
+        <a class="news__to-all button" href="#">Show all</a>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="reviews__wrapper slider">
+        <h2 class="reviews__title">Customer reviews</h2>
+        <a class="reviews__write button" href="form.html">Leave your review</a>
+        <div class="reviews__list slider__list">
+          <blockquote class="reviews__item slider__item">
+            <img class="reviews__photo" src="img/customer.jpg" width="50" height="50" alt="customer photo">
+            <div class="reviews__customer-info">
+              <cite class="reviews__customer-name">Ben White</cite>
+              <p class="reviews__text">Great haircut!</p>
+            </div>
+          </blockquote>
+          <blockquote class="reviews__item slider__item">
+            <img class="reviews__photo" src="img/customer.jpg" width="50" height="50" alt="customer photo">
+            <div class="reviews__customer-info">
+              <cite class="reviews__customer-name">Adam Fauler</cite>
+              <p class="reviews__text">Thanks for service!</p>
+            </div>
+          </blockquote>
+          <blockquote class="reviews__item slider__item">
+            <img class="reviews__photo" src="img/customer.jpg" width="50" height="50" alt="customer photo">
+            <div class="reviews__customer-info">
+              <cite class="reviews__customer-name">Walter Shonk</cite>
+              <p class="reviews__text">Fast and excellent!</p>
+            </div>
+          </blockquote>
+          <button class="reviews__prev" type="button">Previous review</button>
+          <button class="reviews__next" type="button">Next review</button>
+        </div>
+        <div class="reviews__toggles slider__toggles">
+          <button class="slider__toggle slider__toggle--current" type="button">1</button>
+          <button class="slider__toggle" type="button">2</button>
+          <button class="slider__toggle" type="button">3</button>
+        </div>
+      </div>
+    </section>
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <div class="page-footer__contacts contacts">
+          <b class="contacts__title">Barbershop</b>
+          <p class="contacts__text">Place</p>
+          <a class="contacts__phone" href="tel:+44(402)219-92-42">
+            <span class="contacts__phone-mobile">+44(402)219-92-42</span>
+          </a>
+        </div>
+        <div class="page-footer__social social">
+          <b class="social__title">Our social media</b>
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--vk" href="#">
+                VK
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--facebook" href="#">
+                FB
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--instagram" href="#">
+                INST
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__copyright copyright">
+          <b class="copyright__text">Created by:</b>
+          <a class="copyright__link" href="#">Author</a>
+        </div>
+      </div>
+    </footer>
   </main>
-
 </body>
 
 </html>
